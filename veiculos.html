@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veículos - AutoExcelência</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Auto<span>Excelência</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="veiculos.html" class="active">Veículos</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="busca-veiculos">
+        <div class="container">
+            <h2>Encontre seu veículo perfeito</h2>
+            <form id="form-busca">
+                <div class="form-group">
+                    <input type="text" id="busca" placeholder="Digite modelo, marca ou palavra-chave">
+                    <button type="submit"><i class="fas fa-search"></i> Buscar</button>
+                </div>
+                <div class="filtros">
+                    <select id="marca">
+                        <option value="">Todas as Marcas</option>
+                        <option value="bmw">BMW</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                        <option value="volvo">Volvo</option>
+                    </select>
+                    <select id="preco">
+                        <option value="">Qualquer Preço</option>
+                        <option value="100000">Até R$ 100.000</option>
+                        <option value="200000">Até R$ 200.000</option>
+                        <option value="300000">Até R$ 300.000</option>
+                        <option value="500000">Até R$ 500.000</option>
+                    </select>
+                    <select id="ano">
+                        <option value="">Qualquer Ano</option>
+                        <option value="2020">2023+</option>
+                        <option value="2018">2024+</option>
+                        <option value="2015">2025+</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="lista-veiculos">
+        <div class="container">
+            <div class="grid" id="resultados-veiculos">
+                <div class="veiculo-card">
+                    <img src="img/bmw5.jpeg" alt="BMW Série 5">
+                    <h3>BMW Série 5</h3>
+                    <p class="preco">R$ 320.000</p>
+                    <p class="info">2021 | 20.000 km</p>
+                    <a href="#" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="veiculo-card">
+                    <img src="img/MercedesClasseC.jpeg" alt="Mercedes Classe C">
+                    <h3>Mercedes Classe C</h3>
+                    <p class="preco">R$ 280.000</p>
+                    <p class="info">2020 | 25.000 km</p>
+                    <a href="#" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="veiculo-card">
+                    <img src="img/AudiA4.jpeg" alt="Audi A4">
+                    <h3>Audi A4</h3>
+                    <p class="preco">R$ 260.000</p>
+                    <p class="info">2019 | 30.000 km</p>
+                    <a href="#" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="veiculo-card">
+                    <img src="img/VolvoXC60.jpeg" alt="Volvo XC60">
+                    <h3>Volvo XC60</h3>
+                    <p class="preco">R$ 350.000</p>
+                    <p class="info">2022 | 15.000 km</p>
+                    <a href="#" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="veiculo-card">
+                    <img src="img/BMWX3.jpg" alt="BMW X3">
+                    <h3>BMW X3</h3>
+                    <p class="preco">R$ 290.000</p>
+                    <p class="info">2020 | 22.000 km</p>
+                    <a href="#" class="btn">Ver Detalhes</a>
+                </div>
+                <div class="veiculo-card">
+                    <img src="img/AudiQ3.jpg" alt="Audi Q3">
+                    <h3>Audi Q3</h3>
+                    <p class="preco">R$ 230.000</p>
+                    <p class="info">2019 | 35.000 km</p>
+                    <a href="#" class="btn">Ver Detalhes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <h3>AutoExcelência</h3>
+                <p>A melhor concessionária da região</p>
+            </div>
+            <div class="footer-links">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="veiculos.html">Veículos</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <p>contato@autoexcelencia.com</p>
+                <p>(61) 5612-3014</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 AutoExcelência. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
